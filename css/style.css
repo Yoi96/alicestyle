@@ -759,7 +759,7 @@ label
   	color: white;
   	text-align: center;
   	line-height: 5em;
-  	background: #000000;
+  	background: #101B21;
 }
 
  .slide-up {
@@ -773,3 +773,60 @@ label
     transform: translateY(0);
 }
 
+.fa {
+  padding: 0.5em;
+  font-size:4em;
+  width:1em;
+  text-align: center;
+  text-decoration: none;
+  margin: 1em;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: red;
+}
+
+.fa-facebook {
+  background: white;
+  color: black;
+}
+
+.fa-twitter {
+  background: white;
+  color: black;
+}
+
+.fa-google {
+  background: white;
+  color: black;
+}
+
+.fa-linkedin {
+  background: white;
+  color: black;
+}
+
+.fa-youtube {
+ background: black;
+  color: white;
+}
+
+.fa-instagram {
+  background: white;
+  color: black;
+}
+
+.fa-dribbble {
+  background: white;
+  color: black;
+}
+
+.social_media_buttons
+{
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	margin-top: 2em;
+}
