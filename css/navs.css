@@ -19,7 +19,7 @@ a:hover
 	width: 100%;
 	background: url("../images/logo/logo_yellow.png") no-repeat;
     background-position: left;
-    background-size: contain;
+    background-size: 2.5em;
     text-decoration: none;
    
 }
@@ -29,7 +29,7 @@ a:hover
     width: 100%;
     background: url("../images/logo/logo_white.png") no-repeat;
     background-position: left;
-    background-size: contain;
+    background-size: 3em;
     text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ a:hover
     margin:0px;
     text-transform: uppercase;
     line-height: 3em;
-    padding-top: 0.5em;
+    padding-top: 1em;
 }
 
 

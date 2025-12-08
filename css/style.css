@@ -16,7 +16,13 @@ img
 	border: none;
 }
 
-body{background: #101B21; border: none;}
+body
+{
+	background: #101B21; 
+	border: none; 
+	margin: 0px; 
+	padding: 0px;
+}
 
 #wrap
 {
@@ -702,6 +708,8 @@ label
 {
 	line-height: 2em;
 	color: red;
+	font-weight: bold;
+	text-transform: uppercase;
 
 }
 
