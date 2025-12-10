@@ -97,13 +97,13 @@ body
 	padding: 0px;
 	background: url("../images/bgimages/Alice-web-design_02.gif") no-repeat;
 	background-position: top;
-  	background-size:cover;
+  background-size:cover;
  
 }
 
 #edu_navs
 {
-	width: 70%;
+	width: 100%;
 	padding:0px;
 	margin: 0 auto;
 }
@@ -117,17 +117,25 @@ body
 #smallnavs
 {
 	padding: 0px;
-	margin-top:30em;
+	margin:0px;
 	width: 100%;
+}
+
+#rabbit
+{
+	margin: 0 auto;
+	text-align: center;
+	padding-top:15em;
+
 }
 
 .smallnav1
 {
 	background: url("../images/bgimages/icon_red1.gif") no-repeat;
 	background-position: center;
-  	background-size:2em;
-  	display: block;
-  	line-height: 3em;
+  background-size:2em;
+  display: block;
+  line-height: 3em;
 
 }
 
@@ -135,9 +143,9 @@ body
 {
 	background: url("../images/bgimages/icon_black2.gif") no-repeat;
 	background-position: center;
-  	background-size:2em;
-  	display: block;
-  	line-height: 3em;
+  background-size:2em;
+  display: block;
+  line-height: 3em;
 }
 
 
@@ -145,9 +153,9 @@ body
 {
 	background: url("../images/bgimages/icon_black3.gif") no-repeat;
 	background-position: center;
-  	background-size:2em;
-  	display: block;
-  	line-height: 3em;
+  background-size:2em;
+  display: block;
+  line-height: 3em;
 }
 
 
@@ -155,9 +163,9 @@ body
 {
 	background: url("../images/bgimages/icon_black4.gif") no-repeat;
 	background-position: center;
-  	background-size:2em;
-  	display: block;
-  	line-height: 3em;
+  background-size:2em;
+  display: block;
+  line-height: 3em;
 }
 
 
@@ -165,36 +173,36 @@ body
 {
 	background: url("../images/bgimages/icon_black1.gif") no-repeat;
 	background-position: center;
-  	background-size:2em;
-  	display: block;
-  	line-height: 3em;
+  background-size:2em;
+  display: block;
+  line-height: 3em;
 }
 
 .smallnav5:hover
 {
 	background: url("../images/bgimages/icon_red1.gif") no-repeat;
 	background-position: center;
-  	background-size:2em;
-  	display: block;
-  	line-height: 3em;
+  background-size:2em;
+  display: block;
+  line-height: 3em;
 }
 
 .smallnav6
 {
 	background: url("../images/bgimages/icon_red2.gif") no-repeat;
 	background-position: center;
-  	background-size:2em;
-  	display: block;
-  	line-height: 3em;
+  background-size:2em;
+  display: block;
+  line-height: 3em;
 }
 
 .smallnav6:hover
 {
 	background: url("../images/bgimages/icon_black2.gif") no-repeat;
 	background-position: center;
-  	background-size:2em;
-  	display: block;
-  	line-height: 3em;
+  background-size:2em;
+  display: block;
+  line-height: 3em;
 }
 
 
@@ -202,18 +210,18 @@ body
 {
 	background: url("../images/bgimages/icon_black1.gif") no-repeat;
 	background-position: center;
-  	background-size:2em;
-  	display: block;
-  	line-height: 3em;
+  background-size:2em;
+  display: block;
+  line-height: 3em;
 }
 
 .smallnav2:hover
 {
 	background: url("../images/bgimages/icon_red2.gif") no-repeat;
 	background-position: center;
-  	background-size:2em;
-  	display: block;
-  	line-height: 3em;
+  background-size:2em;
+  display: block;
+  line-height: 3em;
 }
 
 
@@ -221,9 +229,9 @@ body
 {
 	background: url("../images/bgimages/icon_red3.gif") no-repeat;
 	background-position: center;
-  	background-size:2em;
-  	display: block;
-  	line-height: 3em;
+  background-size:2em;
+  display: block;
+  line-height: 3em;
 }
 
 
@@ -231,9 +239,9 @@ body
 {
 	background: url("../images/bgimages/icon_red4.gif") no-repeat;
 	background-position: center;
-  	background-size:2em;
-  	display: block;
-  	line-height: 3em;
+  background-size:2em;
+  display: block;
+  line-height: 3em;
 }
 
 
@@ -398,6 +406,12 @@ exp_title
 {
 	display: grid;
 	grid-template-columns:1.5fr 0.5fr 0.5fr 0.5fr 0.5fr 1.5fr;
+}
+
+.s_navs2
+{
+	display: grid;
+	grid-template-columns:2.5fr 0.5fr 0.5fr 0.5fr 0.5fr 2.5fr;
 }
 
 .skills_top
@@ -829,4 +843,11 @@ label
 	width: 100%;
 	text-align: center;
 	margin-top: 2em;
+}
+
+.skill_img, #achievements_img
+{
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
 }
