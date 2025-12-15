@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Momo+Trust+Display&display=swap');
+
 
 ul
 {
@@ -22,6 +24,8 @@ body
 	border: none; 
 	margin: 0px; 
 	padding: 0px;
+	font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
 }
 
 #wrap
@@ -274,7 +278,7 @@ body
 	margin: 0px;
 	padding: 0px;
 	font-weight: bold;
-	color: #E10813;
+	color: #B11226;
 	font-size: 1.3em;
 	text-transform: uppercase;
 
@@ -297,7 +301,8 @@ body
 	margin: 0px;
 	padding: 0px;
 	font-weight: bold;
-	color: #E10813;
+	color: #B11226;
+	/*color: #E10813;*/
 	font-size: 1.3em;
 }
 
@@ -316,8 +321,30 @@ body
 
 .edu_bootom
 {
-	width: 100%;
-	padding-bottom:7em;
+	width:100%;
+	padding:0px;
+	margin: 0;
+	padding-bottom:5em;
+	line-height: 2em;
+}
+
+orange_text
+{
+	color: black;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+
+red_text a
+{
+	color: #DF8421;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.3em;
+	
 }
 
 
@@ -334,10 +361,10 @@ body
 	height: auto;
 	margin: 0px;
 	padding: 0px;
-  	color: white;
+  color: white;
 	background: url("../images/bgimages/Alice-web-design_03_3.gif") no-repeat;
 	background-position:top center;
-  	background-size:cover;
+  background-size:cover;
 
  
 }
@@ -363,6 +390,15 @@ body
 {
 	text-align: right;
 }
+
+#exp_right
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 1em;
+}
+
+
 
 exp_title
 {
@@ -646,9 +682,28 @@ section h2 {
          flex-direction: column;
     }
 
+		.education
+		{
+			width: 100%;
+			height: auto;
+			margin: 0px;
+			padding: 0px;
+			background: url("../images/bgimages/Alice-web-design_02.gif") no-repeat;
+			background-position: top;
+		  background-size:cover;
+		 
+		}
+
+
+
+
 }
 
- h2{color: #E10813;}
+ h2
+ {
+ 	color: #B11226;
+ 	text-transform: uppercase;
+ }
 
 
  #achievements
@@ -697,7 +752,6 @@ iframe
 	height: auto;
 	margin: 0px;
 	padding: 0px;
-	color: red;
 	font-size: 4em;
 	font-family:'brankovic';
 	border-bottom: 3px dotted #FFB439;
@@ -721,7 +775,7 @@ input,textarea
 label
 {
 	line-height: 2em;
-	color: red;
+	color: black;
 	font-weight: bold;
 	text-transform: uppercase;
 
@@ -769,11 +823,12 @@ label
 
 .bg_bootom
 {
-
   	color: white;
   	text-align: center;
   	line-height: 5em;
   	background: #101B21;
+  	text-transform: uppercase;
+  	font-weight: bold;
 }
 
  .slide-up {
